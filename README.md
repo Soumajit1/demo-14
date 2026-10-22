@@ -3,11 +3,7 @@
 class Solution {
 public:
     bool isValid(string s) {
-        string stk;
-        unordered_map<char, char> d{{'(', ')'}, {'[', ']'}, {'{', '}'}};class Solution {
-public:
-    int climbStairs(int n) {
-        // Initialize two variables to track the previous two Fibonacci numbers
+        string stk;339483umbers
         // prev2 represents F(i-2), prev1 represents F(i-1)
         int prev2 = 0;
         int prev1 = 1;
