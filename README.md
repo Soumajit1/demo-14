@@ -50,17 +50,7 @@ public:
       
         // Return the result which represents the number of distinct ways
         return prev1;
-    }
-};
-
-            // Calculate current Fibonacci number: F(i) = F(i-1) + F(i-2)
-            int current = prev2 + prev1;
-          
-            // Shift the window: move forward by one position
-            prev2 = prev1;  // F(i-2) becomes F(i-1)
-            prev1 = current;  // F(i-1) becomes F(i)
-        }
-      
+    }339483
         // Return the result which represents the number of distinct ways
         return prev1;
     }
